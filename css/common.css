@@ -181,11 +181,5 @@ button:hover {
   background: #f6f6fe;
   margin-top: 16px;
 }
-button.dataset.destroy {
-  border-radius: 8px;
-  padding: 8px 16px;
-  width: 120px;
-  height: 40px;
-  background: #ff4e4e;
-}
+
 /* //// TASK-6 END//// */
