@@ -156,5 +156,36 @@ button:hover {
 /* //// TASK-5 END //// */
 
 /* //// TASK-6 //// */
-
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+}
+#boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 134px;
+  background: #f6f6fe;
+  margin-top: 16px;
+}
+button.dataset.destroy {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+}
 /* //// TASK-6 END//// */

@@ -1,7 +1,7 @@
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
-    alt: "White and Black Long Fur Cat",
+    alt: "White and Black Long Fur Cat", 
   },
   {
     url: "https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?dpr=2&h=750&w=1260",
@@ -23,7 +23,10 @@ const images = [
     url: "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg",
     alt: "Lighthouse Coast Sea",
   }
+  
 ];
+
 const gallery = document.querySelector(".gallery");
 const newGallery = images.map(({url, alt}) => `<li class="gallery - item"><img src="${ url }" alt="${ alt }" class="gallery - img"></li>`).join("");
 gallery.insertAdjacentHTML("beforeend", newGallery);
+
